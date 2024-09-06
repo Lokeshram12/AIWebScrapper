@@ -14,6 +14,9 @@ def scrape_website(website):
         html=driver.page_source
         time.sleep()
 
+
+
+
         return html
     
     finally:
